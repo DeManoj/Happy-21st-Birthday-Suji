@@ -18,16 +18,16 @@ interface PhotoItem {
 const entranceTypes = ['from-moon', 'from-deep', 'from-left', 'from-right', 'from-top', 'spiral-in', 'zoom-in', 'tilt-in', 'fold-in', 'shatter-in'] as const
 
 const basePhotos = [
-  { src: '/images/img_1.png', caption: 'The Innocence in You', description: 'Your innocence is what I adore most. I know your capabilities, yet the purity in your eyes and face always captivates me. How can someone be this beautifully capable and innocent?' },
-  { src: '/images/img_2.jpeg', caption: 'Your True Beauty', description: 'Even with filters trying to enhance your beauty, only I have witnessed your authentic radiance. No filter compares to what I see.' },
-  { src: '/images/img_3.jpeg', caption: 'Us as a Couple', description: 'Being together has always been my dream, and one day I want us to wake up in each other\'s arms.' },
-  { src: '/images/img_4.png', caption: 'The First Bouquet', description: 'The first flowers I ever gave you — you deserved that bouquet, and a thousand more.' },
-  { src: '/images/img_5.png', caption: 'Golden Hour', description: 'You were fast asleep, and I could have watched you forever. That is the beauty of you.' },
-  { src: '/images/img_6.png', caption: 'Marrying You', description: 'To marry you in this custom would be my greatest blessing.' },
-  { src: '/images/img_7.png', caption: 'Perfect You', description: 'Perfect you, not me — just saying.' },
-  { src: '/images/img_8.png', caption: 'AI Cannot Capture This', description: 'AI tried but still cannot capture your true beauty that I see in you.' },
-  { src: '/images/img_9.png', caption: 'Silly Jokes', description: 'My silly jokes still make you laugh — I guess I have talent after all.' },
-  { src: '/images/img_10.png', caption: 'Prettier Every Day', description: 'You grow more beautiful in my eyes each day. Ugly isn\'t a word that exists in our dictionary.' },
+  { src: './images/img_1.png', caption: 'The Innocence in You', description: 'Your innocence is what I adore most. I know your capabilities, yet the purity in your eyes and face always captivates me. How can someone be this beautifully capable and innocent?' },
+  { src: './images/img_2.jpeg', caption: 'Your True Beauty', description: 'Even with filters trying to enhance your beauty, only I have witnessed your authentic radiance. No filter compares to what I see.' },
+  { src: './images/img_3.jpeg', caption: 'Us as a Couple', description: 'Being together has always been my dream, and one day I want us to wake up in each other\'s arms.' },
+  { src: './images/img_4.png', caption: 'The First Bouquet', description: 'The first flowers I ever gave you — you deserved that bouquet, and a thousand more.' },
+  { src: './images/img_5.png', caption: 'Golden Hour', description: 'You were fast asleep, and I could have watched you forever. That is the beauty of you.' },
+  { src: './images/img_6.png', caption: 'Marrying You', description: 'To marry you in this custom would be my greatest blessing.' },
+  { src: './images/img_7.png', caption: 'Perfect You', description: 'Perfect you, not me — just saying.' },
+  { src: './images/img_8.png', caption: 'AI Cannot Capture This', description: 'AI tried but still cannot capture your true beauty that I see in you.' },
+  { src: './images/img_9.png', caption: 'Silly Jokes', description: 'My silly jokes still make you laugh — I guess I have talent after all.' },
+  { src: './images/img_10.png', caption: 'Prettier Every Day', description: 'You grow more beautiful in my eyes each day. Ugly isn\'t a word that exists in our dictionary.' },
 ]
 
 function createPhotoData(): PhotoItem[] {
