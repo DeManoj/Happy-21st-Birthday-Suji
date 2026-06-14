@@ -3,8 +3,10 @@ import { Canvas, useFrame, useLoader } from '@react-three/fiber'
 import { Stars } from '@react-three/drei'
 import * as THREE from 'three'
 
-const moonColorUrl = './images/moon_color.jpg'
-const moonDisplacementUrl = './images/moon_displacement.jpg'
+const getAssetUrl = (p: string) => `${import.meta.env.BASE_URL.replace(/\/$/, '')}${p}`
+
+const moonColorUrl = getAssetUrl('/images/moon_color.jpg')
+const moonDisplacementUrl = getAssetUrl('/images/moon_displacement.jpg')
 
 // Fresnel glow shader for the moon's rim lighting
 const MoonMaterial = () => {
